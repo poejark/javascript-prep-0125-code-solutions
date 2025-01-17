@@ -1,19 +1,19 @@
 const number1 = 10;
 const number2 = 4;
-let product = number1 * number2;
+const product = number1 * number2;
 console.log(product);
 console.log(typeof product);
 
-let charge = 5;
-let payment = 2;
-let amountRemaining = charge - payment;
+const charge = 5;
+const payment = 2;
+const amountRemaining = charge - payment;
 console.log(amountRemaining);
 console.log(typeof amountRemaining);
 
 const tests = 90;
 const assignments = 95;
 const final = 92;
-let grade = (tests + assignments + final) / 3;
+const grade = (tests + assignments + final) / 3;
 console.log(grade);
 console.log(typeof grade);
 
@@ -37,6 +37,7 @@ const isSparta = numberOfSoldiers === 300;
 console.log(isSparta);
 console.log(typeof isSparta);
 
-let nickname = fullName + ' is the GOAT';
+let nickname = fullName;
+nickname += ' is the GOAT';
 console.log(nickname);
 console.log(typeof nickname);
